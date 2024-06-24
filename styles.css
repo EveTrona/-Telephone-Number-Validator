@@ -1,0 +1,47 @@
+:root{
+  --backgroundColor:#1b1b32;
+  --orange:#f1be32;
+}
+body{
+  background-color:var(--backgroundColor);
+}
+h1{
+  color:white;
+  text-align:center;
+}
+p{
+  text-align:center;
+}
+button{
+  background-color:var(--orange);
+}
+#input-div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#check-div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:200px;
+}
+#check-btn{
+  margin-right:30px;
+}
+#clear-btn{
+  margin-left:30px;
+}
+main{
+  background-color:white;
+  margin:auto;
+  width:25%;
+  max-width:250px;
+  min-width:180px;
+}
+#results-div{
+  text-align:center;
+}
+#result{
+  color:black;
+}
